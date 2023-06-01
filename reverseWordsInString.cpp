@@ -1,7 +1,7 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        reverse(s.begin(),s.end());
+        reverse(s.begin(),s.end());//reverse all the characters of the given string
         int b=0;
         for(int i=0;i<s.size();i++)
         {

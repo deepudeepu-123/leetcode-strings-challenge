@@ -1,6 +1,6 @@
 class Solution {
 public:
-string generate(int i,int j,string s)
+string generate(int i,int j,string s)//substring genration using starting index and ending index
 {
     string ans="";
     for(int k=i;k<=j;k++)
