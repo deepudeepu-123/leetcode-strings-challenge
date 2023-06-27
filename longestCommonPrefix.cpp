@@ -11,7 +11,7 @@ public:
        int i=0;
        while(i<a&&a1[i]==a2[i])
        {
-i++;
+        i++;
        }
        return a1.substr(0,i);
     }
